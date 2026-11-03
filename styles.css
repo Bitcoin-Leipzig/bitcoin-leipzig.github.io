@@ -1,0 +1,59 @@
+del,
+s {
+    text-decoration: line-through;
+}
+strong {
+    font-weight: bold;
+}
+body {
+    font-family: sans-serif;
+}
+body #wrap {
+    margin: 0 auto;
+}
+fieldset {
+    border-color: black;
+}
+@media only screen {
+    body {
+        background-color: #2d2d2d;
+        color: #f2a900;
+    }
+    a:link,
+    a:visited {
+        color: #c07900;
+    }
+    a:hover,
+    a:active {
+        color: #4040f9;
+    }
+    div.kurs a:hover,
+    div.kurs a:visited {
+        color: #f2a900 !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body #wrap {
+        font-size: 1.4em;
+    }
+}
+@media only screen and (min-width: 768px) {
+    label {
+        display: inline-block;
+        width: 12ex;
+    }
+    body #wrap {
+        font-size: 1.5em;
+        width: 80%;
+    }
+}
+time {
+    font-style: italic;
+}
+time.rrule {
+    font-weight: bold;
+}
+a {
+    min-height: 44px;
+    line-height: 1.5em;
+}
