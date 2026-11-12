@@ -33,7 +33,10 @@ fieldset {
     }
 }
 @media only screen and (max-width: 600px) {
-    body #wrap {
+    p,
+    h1,
+    h2,
+    span {
         font-size: 1.4em;
     }
 }
@@ -42,7 +45,11 @@ fieldset {
         display: inline-block;
         width: 12ex;
     }
-    body #wrap {
+
+    p,
+    h1,
+    h2,
+    span {
         font-size: 1.5em;
         width: 80%;
     }
