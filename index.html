@@ -27,7 +27,7 @@
         />
         <link rel="stylesheet" href="btc-styles.css" />
         <link rel="stylesheet" href="styles.css" />
-        <script type="module" src="./script/eventdate.js"></script>
+        <script src="./script/calculateMeetupDates.js"></script>
     </head>
     <body>
         <div id="wrap" class="container">
@@ -71,12 +71,10 @@
                 </p>
 
                 <p>Die nächsten planmäßigen Termine sind: <br /></p>
-                <!-- TODO: eigene Datumsberechnung einbauen und alte löschen -->
-
                 <ul>
-                    <li>
+                    <li id="js__meetup-element--1">
                         <p>
-                            am 03.12.2026 um 19 Uhr im Raum
+                            am <span id="js__meetup-date--1"></span> um 19 Uhr im Raum
                             Liebelei,Werkstättenstraße 4/Halle 197,
                             04319 Leipzig
                         </p>
@@ -87,9 +85,9 @@
                             >Google Maps</a
                         >
                     </li>
-                    <li>
+                    <li id="js__meetup-element--2">
                         <p>
-                            am 17.12.2026 um 19 Uhr im Beyerhaus,
+                            am <span id="js__meetup-date--2"></span> um 19 Uhr im Beyerhaus,
                             Ernst-Schneller-Straße 6, 04107 Leipzig
                         </p>
                         <a
